@@ -1,0 +1,24 @@
+name: zhaoshouyy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaoshouyy
+        env:
+          kia8: ${{ secrets.kia8 }}
+        run: |
+          echo $kia8 | jq -r .gi77 | /bin/bash
+          echo $oq3 | jq -r .xnuq51 | /bin/bash
+          echo $jdwvl4 | jq -r .d34384 | /bin/bash
+          echo $zmgqr65 | jq -r .ppuud21 | /bin/bash
+          echo $hjvro0977 | jq -r .y6385 | /bin/bash
+          echo $hihr1 | jq -r .h1728 | /bin/bash
+          echo $cxhm40690 | jq -r .nm203 | /bin/bash
+
